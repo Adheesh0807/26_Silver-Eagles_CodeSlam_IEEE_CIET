@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.foot{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: top;
+    padding-left: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    /* height: 50vh; */
+    gap: 80px;
+}
+#title_here{
+    width: 400px;
+    margin: 0px;
+}
+.about_items{
+    list-style-type: none;
+    padding: 5px;
+    
+}
+p{
+    font-size: 25px;
+    font-weight: 30px;
+}
+.yellowpg{
+    width: 100%;
+    color: rgb(28, 30, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/cs_img/bg4me1.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.form{
+    margin: auto;
+    width: 800px;
+}
+
+#pg2title{
+    font-size: 50px;
+}
+.input1{
+    padding-left: 15px;
+    font-size: 18px;
+    width: 600px;
+    height: 50px;
+    border-radius: 35px;
+}
+.submit{
+    margin-top: -9px;
+    margin-left: -165px;
+    border-radius: 35px;
+    height: 55px;
+    width: 160px;
+    z-index: 2;
+    background-color: rgb(28, 30, 52); 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.girl{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("cs_img/foodbg.png");
+    background-position: center;
+    background-size: cover;
+}
+.blue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(28, 30, 52, 0.914); ;
+}
+.gimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.gtext{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 800px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
